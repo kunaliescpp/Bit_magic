@@ -3,8 +3,8 @@ Problem Link: https://www.spoj.com/problems/SUBSUMS/
 
 SUBSUMS - Subset Sums
 
-Given a sequence of N (1 ≤ N ≤ 34) numbers S1, ..., SN (-20,000,000 ≤ Si ≤ 20,000,000), determine how many subsets
-of S (including the empty one) have a sum between A and B (-500,000,000 ≤ A ≤ B ≤ 500,000,000), inclusive.
+Given a sequence of N (1 ≤ N ≤ 34) numbers S1, ..., SN (-2*10^7 ≤ Si ≤ 2*10^7), determine how many subsets
+of S (including the empty one) have a sum between A and B (-5*10^8 ≤ A ≤ B ≤ 5*10^8), inclusive.
 
 Input : The first line of standard input contains the three integers N, A, and B. The following N lines contain S1 
 through SN, in order.
@@ -92,6 +92,5 @@ int32_t main(){
  
 return 0;
 }
- 
  
  
