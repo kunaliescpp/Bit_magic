@@ -11,3 +11,5 @@ Number of set bits in given integer
      cnt++;                      // 1 then magically 40 become 39
   }
   return cnt;
+
+
